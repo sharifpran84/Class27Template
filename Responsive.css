@@ -1,7 +1,93 @@
-@media (max-width:1250px) {
-    .container {
+@media (max-width:970px) {
+    .logo, .menu {
+        float: none;
         width: 100%;
         margin: auto;
-        max-width: 100%;
+        text-align: center;
+    }
+    .menu ul {
+        text-align: center;
+    }
+}
+@media (max-width:679px) {
+    .menu li a {
+        font-size: 16px;
+        padding: 0px 5px;
+        line-height: 2;
+    }
+    .slider h1 {
+        font-size: 10px;
+    }
+}
+@media (max-width:1107px) {
+    .slider h1 {
+        font-size: 40px;
+    }
+    .slider h5 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:879px) {
+    .slider h1 {
+        font-size: 30px;
+    }
+    .slider h5 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .slider button {
+    
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+@media (max-width:764px) {
+    .slider h1 {
+        font-size: 20px;
+    }
+    .slider h5 {
+        font-size: 10px;
+    }
+    .slider button {
+    
+        padding: 10px;
+        font-size: 12px;
+    }
+    .sliderSection {
+        padding: 150px 0;
+    }
+}
+@media (max-width:1297px) {
+    .service {
+        float: left;
+        width: 46%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .blogImg, .textPart {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:612px) {
+    .service {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media (max-width:530px) {
+    .contact {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:452px) {
+    .logofooter i {
+        line-height: 2;
     }
 }
